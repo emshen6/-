@@ -1,0 +1,49 @@
+.myname {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.nameage {
+    margin-left: 50px;
+}
+
+.photo > img {
+    border-radius: 100px;
+    box-shadow: 1px 1px 1px black;
+}
+
+.name,
+.age {
+    font-family: 'Courier New', Courier, monospace;
+    color: whitesmoke;
+    text-shadow: 2px 2px 2px black;
+}
+
+.name {
+    font-size: 40px;
+}
+
+.age {
+    font-size: 20px;
+}
+
+@media (max-width: 425px) {
+    .nameage {
+        margin-left: 20px;
+    }
+    .name {
+        font-size: 23px;
+    }
+    .age {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 375px) {
+    .name {
+        font-size: 20px;
+    }
+}

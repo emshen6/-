@@ -1,0 +1,12 @@
+[
+    {
+        "name": "JavaScript",
+        "url": "https://www.udemy.com/certificate/UC-d21429ca-ccf5-4e96-aeb0-fb904466c007/",
+        "img": "/business-card/img/skills/js.png"
+    },
+    {
+        "name": "TypeScript",
+        "url": "https://stepik.org/cert/2055982",
+        "img": "/business-card/img/skills/ts.png"
+    }
+]

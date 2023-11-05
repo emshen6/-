@@ -1,0 +1,24 @@
+.pagetitle {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-top: 70px;
+    font-size: 50px;
+    font-weight: 500;
+    animation: pagetitle 1s;
+    text-shadow: 2px 2px 2px black;
+}
+
+@media (max-width: 425px) {
+    .pagetitle {
+        font-size: 30px;
+    }
+}
+@keyframes pagetitle {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,74 @@
+.proglang,
+.library {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+.other {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.texttitle {
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    animation: appearance 1s;
+    padding-bottom: 10px;
+}
+.titleProgLang {
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 200px;
+    animation: appearance 1s;
+    margin-bottom: 40px;
+    text-shadow: 2px 2px 2px black;
+}
+.cardimage {
+    border: 1px solid rgba(255, 255, 255, 0.205);
+    box-shadow: 2px 2px 2px black;
+    margin: 10px;
+    animation: appearance 1s;
+}
+.cardimage > a {
+    text-decoration: none;
+}
+
+@keyframes appearance {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@media (max-width: 1440px) {
+    .titleProgLang {
+        margin-left: 0;
+        text-align: center;
+    }
+}
+@media (max-width: 425px) {
+    .proglang,
+    .library {
+        flex-direction: column;
+    }
+    .titleProgLang {
+        font-size: 20px;
+    }
+}
+@media (hover: hover) {
+    .cardimage:hover {
+        border-color: orange;
+    }
+    a:hover .texttitle {
+        color: orange;
+    }
+}

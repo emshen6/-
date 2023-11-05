@@ -1,0 +1,32 @@
+[
+    {
+        "img": "/business-card/img/about/hello.png",
+        "description": "Привет. Меня зовут Павел. Родом из г. Иваново.",
+        "alt": "hello"
+    },
+    {
+        "img": "/business-card/img/about/education.png",
+        "description": "В 2012 году окончил высшее учебное заведение. Получил два высших образования: инженерное и экономическое.",
+        "alt": "education"
+    },
+    {
+        "img": "/business-card/img/about/work.png",
+        "description": "Последнее место работы - производственное предприятие в г. Владимир.Инженерно-техническая должность. Общий стаж работы 10 лет.",
+        "alt": "work"
+    },
+    {
+        "img": "/business-card/img/about/prog.png",
+        "description": "Увлекся программированием и на данный момент имею 2 года некоммерческого опыта. Свой путь в мир IT я решил начать с WEB разработки. По этой причине начал изучение языка JavaScript. Сейчас моё направление - это frontend.",
+        "alt": "programming"
+    },
+    {
+        "img": "/business-card/img/about/future.png",
+        "description": "В планах на будущее - это устроится работать в IT компанию. На данный момент веду поиск работы. Так же повышение своих навыков до fullstack JavaScript разработчика.",
+        "alt": "future"
+    },
+    {
+        "img": "/business-card/img/about/hobby.png",
+        "description": "В свободное время играю на гитаре. Люблю 'ковыряться' в компьютерном железе. Слушаю музыку. Зимой катаюсь на лыжах.",
+        "alt": "hobby"
+    }
+]

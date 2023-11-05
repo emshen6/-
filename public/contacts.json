@@ -1,0 +1,20 @@
+[
+    {
+        "img": "/business-card/img/contact/vk.png",
+        "name": "vkontakte",
+        "url": "https://vk.com/id25519335",
+        "title": "ВКонтакте"
+    },
+    {
+        "img": "/business-card/img/contact/telegram.png",
+        "name": "telegram",
+        "url": "https://t.me/PKochetkov",
+        "title": "Telegram"
+    },
+    {
+        "img": "/business-card/img/contact/github.png",
+        "name": "gitHub",
+        "url": "https://github.com/PavelKochetkov",
+        "title": "GitHub"
+    }
+]
